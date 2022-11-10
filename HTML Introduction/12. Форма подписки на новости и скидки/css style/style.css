@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page {
+  min-width: 960px;
+  margin: auto;
+  background-color: #eeeeee;
+  padding: 50px;
+}
+
+.subscription-text {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 50px;
+}
+
+.field {
+  box-sizing: border-box;
+  width: 285px;
+  height: 40px;
+  border: 2px solid #dadada;
+  margin: 0;
+  font-size: 14px;
+  padding: 10px 14px;
+  background-color: #ffffff;
+  outline-color: #ed1c24;
+}
+
+.button {
+  box-sizing: border-box;
+  font-size: 14px;
+  height: 40px;
+  padding: 3px 20px;
+  background-color: #ed1c24;
+  border: none;
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 20px;
+}

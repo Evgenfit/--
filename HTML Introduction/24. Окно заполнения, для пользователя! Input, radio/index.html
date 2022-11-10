@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+    <link rel="stylesheet" href="css style/style.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div class="form-row">
+        <label class="form-group">
+          <span class="form-hint">Введите ваше имя</span>
+          <input
+            type="name"
+            class="field"
+            placeholder="Введите ваше имя"
+            required
+          />
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label class="form-group">
+          <span class="form-hint">Введите ваш email</span>
+          <input
+            type="email"
+            class="field"
+            placeholder="Введите ваш email"
+            required
+          />
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label class="form-group">
+          <span class="form-hint">Выберете город проживания</span>
+          <select class="select">
+            <option value="Smolensk" selected>Смоленск</option>
+            <option value="Moscow">Москва</option>
+            <option value="Kazan">Казань</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label class="radio-group">
+          <span class="form-hint">Выберите пол</span>
+          <input type="radio" class="radio" name="radio-group" />
+          <span class="radio-group-text">Мужской</span>
+        </label>
+
+        <label class="radio-group">
+          <input type="radio" class="radio" name="radio-group" />
+          <span class="radio-group-text">Женский</span>
+        </label>
+      </div>
+
+      <div class="form-row">
+        <label class="form-group">
+          <span class="form-hint">Введите ваше сообщение</span>
+          <textarea
+            class="field-textarea"
+            placeholder="Здравствуйте..."
+          ></textarea>
+        </label>
+      </div>
+
+      <div class="form-row">
+        <button class="button">Отправить</button>
+      </div>
+
+      <div class="form-row">
+        <label class="checkbox-group">
+          <input type="checkbox" class="checkbox" />
+          <span class="checkbox-text"
+            >Я даю согласие на обработку персональных данных</span
+          >
+        </label>
+      </div>
+    </form>
+  </body>
+</html>

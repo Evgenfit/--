@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.news {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 320px;
+  box-sizing: border-box;
+  border: 2px solid #dfdee8;
+  padding: 50px 40px;
+}
+
+.card:nth-child(n + 1) {
+  margin-top: 30px;
+}
+
+/* Каждый элемен через 3 элемена начиная со второго! */
+.card:nth-child(3n + 2) {
+  margin-left: 30px;
+  margin-right: 30px;
+}

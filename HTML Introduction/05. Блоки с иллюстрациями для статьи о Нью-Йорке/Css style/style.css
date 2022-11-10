@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  min-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.figure-cathedral {
+  float: right;
+  margin-left: 40px;
+  margin-right: 0px;
+  border: 2px solid #e0e4e8;
+  padding: 18px;
+  margin-top: 5px;
+}
+
+.figure-nasdaq {
+  float: left;
+  margin-right: 40px;
+  margin-left: 0;
+  border: 2px solid #e0e4e8;
+  padding: 18px;
+  margin-top: 5px;
+}
+
+figcaption {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+  color: #e0e4e8;
+}
+
+.figcaption-nasdaq {
+  width: 200px;
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+  color: #e0e4e8;
+}

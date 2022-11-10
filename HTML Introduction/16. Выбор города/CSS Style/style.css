@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.page {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border: 1px solid #cbd1d4;
+}
+
+.select-label {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form-group:nth-child(n + 2) {
+  margin-top: 25px;
+}
+
+.select {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  height: 38px;
+
+  padding-left: 10px;
+  padding-right: 25px;
+
+  font-size: 14px;
+  color: #333333;
+
+  border: 1px solid #cbd1d4;
+  background-color: #f9f9f9;
+
+  background-image: url(/images/select-arrows.svg);
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+
+  /* Убирает стрелочку по умолчанию для выбора города */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.select:focus {
+  outline: 2px solid #0f8fee;
+  outline-offset: 4px;
+}
+
+.checkbox {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+}
+
+.checkbox-text {
+  display: inline-block;
+}
+
+.checkbox-text::before {
+  margin-right: 8px;
+}
+
+.checkbox-text::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+
+  background-image: url(/images/checkbox-unchecked.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+}
+
+/* Делаем checkbox - рабочим */
+.checkbox:checked ~ .checkbox-text::before {
+  background-image: url(/images/checkbox-checked.svg);
+  outline: 2px solid #0f8fee;
+  outline-offset: 2px;
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 20px;
+
+  border: 1px solid #0f8fee;
+  background-color: #0f8fee;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1b89dc;
+  border: 1px solid #1b89dc;
+}
+
+.button:focus {
+  outline: 2px solid #0f8fee;
+  outline-offset: 4px;
+}

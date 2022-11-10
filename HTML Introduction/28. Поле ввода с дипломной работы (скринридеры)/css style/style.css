@@ -1,0 +1,110 @@
+.search {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  place-content: center;
+}
+
+.search-field {
+  box-sizing: border-box;
+  height: 50px;
+  width: 222px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border: none;
+  font-size: 13px;
+  background-color: #f4f7f6;
+  outline: none;
+}
+
+.search-field:focus {
+  border: 2px solid #e6bd3f;
+}
+
+.search-button {
+  width: 49px;
+  height: 49px;
+  background-image: url(/images/search\ —\ копия.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: center;
+  background-color: #e6bd3f;
+  border: none;
+}
+
+.search-button:hover {
+  background-color: #927930;
+  cursor: pointer;
+}
+
+/* ============ Title ============== */
+.top-title {
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.top-title::after {
+  content: '';
+  display: block;
+  position: relative;
+  background-color: #e6bd3f;
+  width: 90px;
+  height: 4px;
+  margin: 14px auto 29px auto;
+  opacity: 0.6;
+  border-radius: 30%;
+}
+
+/* ====== Mail ====== */
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mail-field {
+  box-sizing: border-box;
+  width: 271px;
+  height: 50px;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 17px;
+  font-size: 13px;
+  background-color: #f4f7f6;
+  border: none;
+  outline: none;
+}
+
+.mail-field:focus {
+  border: 2px solid #e6bd3f;
+}
+
+.mail-button {
+  width: 271px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #e6bd3f;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.mail-button:hover {
+  background-color: #927930;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}

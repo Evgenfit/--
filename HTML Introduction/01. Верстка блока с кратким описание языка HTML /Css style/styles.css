@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  min-width: 400px;
+  place-content: center;
+}
+
+.content {
+  width: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.term {
+  font-weight: bold;
+}
+
+.hint {
+  font-style: italic;
+}

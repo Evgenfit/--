@@ -1,0 +1,79 @@
+.footer {
+  width: 1200px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-wrapper {
+  background-color: #474646;
+  border-radius: 50px;
+}
+
+.social-icons-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.social-icon-link {
+  display: block;
+  margin-right: 30px;
+}
+
+.social-icon__vkontakte {
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/Vk_icon.png);
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+
+.social-icon__instagram {
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/instagram_photos_round\ icon_social\ media_icon.png);
+  background-repeat: no-repeat;
+}
+
+.social-icon__Facebook {
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/Fb_icon.png);
+  background-repeat: no-repeat;
+}
+
+.social-icon__dribbble {
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/dribbble_icon.png);
+  background-repeat: no-repeat;
+}
+
+.social-icon__pinterest {
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/pinterest_interest_icon.png);
+  background-repeat: no-repeat;
+}
+
+.social-icon__tumblr {
+  width: 48px;
+  height: 48px;
+  background-image: url(/images/umbler_icon.png);
+  background-repeat: no-repeat;
+}
+
+/* Прячем текс (скринридер) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}

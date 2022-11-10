@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu,
+    Fira Sans, Helvetica Neue, sans-serif;
+  font-size: 15px;
+}
+
+.servises {
+  display: flex;
+  width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.card {
+  width: 420px;
+  padding: 160px 30px 30px 30px;
+  text-align: center;
+
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid rgba(179, 184, 236, 0.5);
+
+  background-image: url('https://netology-code.github.io/html-2-homeworks/c…t-structure-tags/web-studio/img/creative-idea.svg');
+  background-size: 96px;
+  background-repeat: no-repeat;
+  background-position: center 30px;
+}
+
+.card:nth-child(3n + 1),
+.card:nth-child(3n + 3) {
+  border-left: 1px solid rgba(179, 184, 236, 0.5);
+  border-right: 1px solid rgba(179, 184, 236, 0.5);
+}
+
+/* Описывает первые 3 элемента среди группы соседних элементов */
+.card:nth-child(-n + 3) {
+  border-top: 1px solid rgba(179, 184, 236, 0.5);
+}

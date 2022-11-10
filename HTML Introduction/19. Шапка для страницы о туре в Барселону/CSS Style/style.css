@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome {
+  position: relative;
+  min-width: 1200px;
+  min-height: 200px;
+
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+  color: #ffffff;
+  text-align: center;
+
+  background-image: url(/images/barcelona.jpeg);
+  background-size: cover;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 0;
+}
+
+.welcome::after {
+  content: '';
+  position: absolute;
+  background-color: #000000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.45;
+  z-index: -1;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.welcome-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.welcome-description {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}

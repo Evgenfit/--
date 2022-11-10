@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  border: 1px solid #222222;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #335601;
+  color: #ffffff;
+}
+
+.form-row {
+  margin-bottom: 5px;
+}
+
+.form-row:nth-child(n + 2) {
+  margin-top: 35px;
+}
+
+.form-group {
+  display: block;
+}
+
+.form-hint {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.field {
+  box-sizing: border-box;
+  width: 640px;
+  border: 1px solid #222222;
+  border-radius: 20px;
+  padding: 15px 20px;
+  background-color: rgb(223, 243, 157);
+}
+
+.field:focus {
+  outline: 2px solid #92f608;
+  outline-offset: 5px;
+}
+
+.field:hover {
+  background-color: rgb(232, 247, 184);
+}
+
+.select {
+  display: block;
+  box-sizing: border-box;
+  width: 480px;
+  height: 45px;
+
+  padding-left: 20px;
+  border: 1px solid #222222;
+  border-radius: 20px;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: url('/images/select-arrows\ —\ копия.svg');
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  background-color: rgb(223, 243, 157);
+}
+
+.select:focus {
+  outline: 2px solid #92f608;
+  outline-offset: 5px;
+}
+
+.select:hover {
+  background-color: rgb(232, 247, 184);
+}
+
+.radio-group {
+  margin-bottom: 30px;
+}
+
+.radio-group-text::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url(/images/radio_off_icon.png);
+  background-repeat: no-repeat;
+  background-position: bottom 1px center;
+  background-size: 20px;
+}
+
+.radio-group:nth-of-type(n + 2) {
+  margin-left: 15px;
+}
+
+.radio:checked {
+  outline: 2px solid #92f608;
+  outline-offset: 5px;
+}
+
+.radio:checked + .radio-group-text::before {
+  background-image: url(/images/radio_on_icon.png);
+}
+
+.field-textarea {
+  box-sizing: border-box;
+  min-width: 640px;
+  max-width: 640px;
+  min-height: 150px;
+  max-height: 200px;
+
+  border: 1px solid #222222;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: rgb(223, 243, 157);
+}
+
+.field-textarea:focus {
+  box-sizing: border-box;
+  border: none;
+  outline: 1px solid #92f608;
+}
+
+.field-textarea:hover {
+  background-color: rgb(232, 247, 184);
+}
+
+.button {
+  border: none;
+  padding: 15px 55px;
+  background-color: #7acc08;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button:focus {
+  outline: 2px solid #92f608;
+  outline-offset: 5px;
+}
+
+.button:hover {
+  background-color: #acf743;
+}
+
+/* ===== Checkbox ===== */
+.checkbox-group {
+  font-size: 15px;
+}
+
+.checkbox-text::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 30%;
+  border: 2px solid;
+  background-color: #ffffff;
+}
+
+.checkbox:checked + .checkbox-text::before {
+  background-color: #92f608;
+}
+
+/* ==== hidden ==== */
+.radio,
+.checkbox {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+}

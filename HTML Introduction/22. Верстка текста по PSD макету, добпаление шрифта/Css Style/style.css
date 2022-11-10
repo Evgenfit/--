@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Lobster;
+  src: url(https://netology-code.github.io/html-2-homeworks/flex-elements-positioning/font-face/fonts/lobster-regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: #69128d;
+}
+
+.page {
+  font-family: Lobster;
+  color: #ffffff;
+  font-size: 40px;
+  width: 880px;
+  padding-top: 195px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* Заданную величину в пикселях от дизайнера, делим на размер шрифта! */
+  line-height: 1.5;
+}
